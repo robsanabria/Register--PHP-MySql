@@ -1,0 +1,71 @@
+*{
+	margin: 0;
+	padding:  0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+}
+section{
+	height: 750px;
+	display: flex;
+	justify-content: space-evenly;
+	padding: 0 40px;
+	align-items: center;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+#formulario{
+    padding-bottom: 10px;
+    display: inline-grid;
+    padding-right: 20px;
+    background-color: #fad0c4;
+    padding-left: 20px;
+}
+
+section:nth-child(1){
+    background-image: linear-gradient(45deg, #bd7073 0%, #fad0c4 99%, #fad0c4 100%);
+    }
+
+    #regiration_form fieldset:not(:first-of-type) {
+        display: none;
+      }
+
+      /* comportamiento responsive*/
+
+ 
+      section img{
+        height: 50%;
+        width: 60%;
+        margin-right: 10%;
+    } 
+
+@media screen and (max-width: 1000px){
+	section{
+		flex-direction: column-reverse;
+		align-content: center;
+	}
+	section>img{
+		height: 30%;
+	}
+	.contenedor-texto{
+		text-align: center;
+	}
+}
+
+.ok{
+text-align: center;
+width: 100%;
+padding:12px;
+background-color:#4e8;
+color:#fff;
+}
+.badt{
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #a22;
+	color: #fff;
+}
+/**Estilos form **/
